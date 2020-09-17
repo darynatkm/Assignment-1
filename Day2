@@ -1,0 +1,95 @@
+
+public class Question1 {
+	public static void main(String[] args) {
+	int count=5;
+	System.out.println(count);
+		
+}
+}
+
+public class Question2 {
+	public static void main(String[] args) {
+	Spring message="Hi there!";
+	System.out.println(message);
+}
+}
+
+public class Question3 {
+	public static void main(String[] args) {
+	int num=5;
+	double cost=6;
+	System.out.println(num+cost);
+
+}
+}
+
+public class Question4 {
+	public static void main(String[] args) {
+	String word="Java";
+	System.out.println("Today/'s Word-Of-The-Day is:"+word);
+
+}
+}
+
+public class Question5 {
+	public static void main(String[] args) {
+	int first=4; int second=5;
+	System.out.print("first is "+ first + "second ="+second);
+}
+}
+
+public class Question6 {
+	public static void main(String[] args) {
+
+	String name0, name1, name2, name3, name4;
+	name0="James";
+	name1="Jill";
+	name2="Betty";
+	name3="Herb";
+	name4="Bob";
+	System.out.println(name4+name0+name2+name3+name1);
+
+}
+}
+
+public class Question7 {
+	public static void main(String[] args) {
+	String i="9";
+	float f=33.4f;
+	System.out.println("i="+i+" f="+f);
+
+
+}
+}
+
+public class Question8 {
+	public static void main(String[] args) {
+	String lan1,lan2;
+	lan1="Java";
+	lan2="SQL";
+	System.out.println("I will learn"+ lan1+" and "+lan2+" at Cybertek");
+
+}
+}
+
+public class Question9 {
+	public static void main(String[] args) {
+	byte steps=100;
+	short miles=5000;
+	int count=1000000;
+	long population=3434455667l;
+
+
+}
+}
+
+public class Question10 {
+	public static void main(String[] args) {
+	int hour, minute, second;
+	String amOrPm="PM";
+	hour=12;
+	minute=24;
+	second=33;
+	System.out.println(hour+":"+minute+":"+second+ " "+ amOrPm);
+}
+}
