@@ -1,0 +1,51 @@
+package assignments;
+
+public class Day4 {
+	
+	public static void main(String[] args) {
+	//q1
+	double gallon=15, liter=gallon*3.785;
+	System.out.println(gallon+" gallon is "+liter+"liter");
+	//q2
+	String name="Daryna";
+	int age=23;
+	
+	System.out.println("Hello, "+ name+"!Based on your input, your age is "+age);
+	//q3
+	double width=4.5, height=7.9;
+	double area=width*height;
+	System.out.println(area);
+	//q4
+	int num1=10, num2=20;
+	System.out.println("n1="+num1);
+	System.out.println("n2="+num2);
+	num1=20;
+	num2=10;
+	System.out.println("---------");
+	System.out.println("n1="+num1);
+	System.out.println("n2="+num2);
+	//q5
+	int inputSeconds, hours, minutes, seconds;
+	inputSeconds=3695;
+	hours=3695/3600;
+	minutes=(3695%3600)/60;
+	seconds=(3695%3600)%60;
+	System.out.println(hours+" hours, "+minutes+" minutes, and "+seconds+" seconds");
+
+	//q6
+	int letalDose=10000, caffeine=500;
+	int drinks=letalDose/caffeine; 
+	System.out.println("Number of miligrams in drink: "+ caffeine);
+	System.out.println("It would take about "+ drinks+ " drinks for a lethal overdose");
+	
+	//q7
+	int quarters, dimes, nickles, price;
+	price=95;
+	quarters= (100-price)/25;
+	dimes=(100-price)/10;
+	nickles=(100-price)/5;
+	System.out.println("Your change is "+quarters+ " ,quarters " + dimes+ " dimes,and  "+ nickles +" nickles");
+
+	
+	}	
+}
