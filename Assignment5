@@ -1,0 +1,155 @@
+package assignments;
+
+import java.util.Scanner;
+
+public class Assignment5 {
+
+	public static void main(String[] args) {
+		//1
+		/*int i;
+		for (i=0;i<=1000;) {
+			System.out.print(i+",");
+			i+=10;
+		}*/
+		//2
+		/*int e;
+		for(e=3;e<=130; e++) {
+			if (e%2==1) {
+			System.out.print(e+",");
+			}	
+		}*/
+		//3
+		/*int i=5; 
+		int sumEven=0;
+		while(i<50) {
+			if(i%2==0) {
+				sumEven= sumEven+1;
+		}
+		i++;
+		}
+		System.out.println(sumEven);*/
+		
+		//4
+		/*Scanner s=new Scanner(System.in);
+		int num=s.nextInt();
+		int product=0;
+		while(product<100) {
+			product=product+num*10;
+			System.out.println(product);
+		}
+				s.close();*/
+		//5
+		/*for (int i=1; i<=10; i++) {
+			System.out.println("12*"+i+" ="+i*12);
+		}*/
+		
+		//6
+		/*Scanner s=new Scanner(System.in);
+		int terms=s.nextInt();
+		int n1=0, n2=1; 
+		for(int i=1; i<=terms; ++i) {
+			System.out.print(n1+", ");
+			int n3=n1+n2;
+			n1=n2;
+			n2=n3;	
+		}*/
+		//7
+		
+		/*for (int num=1; num<=100; num++) {
+			if(num%5==0) {
+				System.out.println(num);
+			}
+		}*/
+		//8
+		/*Scanner s= new Scanner(System.in);
+		int upperBound=s.nextInt();
+		int i=0;
+		while (i<upperBound){
+			i++;
+		}
+		System.out.println((i*i+i)/2);*/
+		
+		//9
+		/*Scanner s= new Scanner(System.in);
+		int end=s.nextInt();
+		int num=0;
+		while (num<end){
+			num++;
+			if(num%2==1) {
+				System.out.print(num+", ");
+			}
+			}*/
+		
+		//10
+		/*for (int i=1; i<=7; i++)
+		{
+			
+			for (int y=1; y<=i; y++ ) {
+				
+				System.out.print(i);
+				}
+			System.out.println();
+		}*/
+		
+		//11 - not 100% match 
+		/*int lines=4;
+		for (int i=1; i<=lines; i++)
+		{for(int x=1; x<i;x++) 	{ System.out.print(" "); }
+		System.out.print(" ");
+			for (int y=lines-i+1; y>0; y--) {
+				System.out.print(y+" ");
+				
+			}
+			System.out.println();
+			
+		}*/
+		
+		
+		//12 
+		/*int multiplicator=0;
+		 for (int lines=0; lines<10; lines++) {
+			 multiplicator++;
+		 for (int i=1; i<=10;i++ ) {
+			 System.out.print(i*multiplicator+ " ");
+			 if(i==10)
+				 System.out.println(" ");
+			 	continue;
+		 }
+		 }*/
+		 //13
+		/*String b="B", w="W";
+		 for(int lines=0; lines<8; lines++) {
+			 
+		 
+		 for(int i=1; i<=8; i++) {
+			 if(i%2==0 && lines%2==0)
+			 System.out.print(w+" "+b+" ");
+			 if(i%2==1 && lines%2==1)
+			 System.out.print(b+" "+w+" ");
+			 if(i==8)
+				 System.out.println(" ");
+			 	continue;
+		 }
+		}*/
+		
+		//14
+		String str="#", str2=" ";
+		for (int lines=0; lines<7; lines++) {
+			int i=1; 
+			i++;
+				if(lines==1 && i==2) {
+				System.out.print(str+str);
+				continue;}
+				if(lines>1) {
+					System.out.println();
+					System.out.print(str);
+				for(int y=1; y<=lines; y++)
+				System.out.print(" ");
+				System.out.print(str);
+			}
+				
+		}
+		 
+	}
+		
+}
