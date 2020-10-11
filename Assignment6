@@ -1,0 +1,111 @@
+package assignments;
+
+public class Assignment6 {
+
+	public static void main(String[] args) {
+		
+		//1
+		/*int num=0;
+		for(int i=1;i<=13; i++) {
+			if(i<=7) {
+				for(int y=1;y<=i; y++) {
+					System.out.print(y+" ");
+					
+				}
+			}
+				if(i==8) {
+					
+					num++;
+					for(int y=1;y<(i-num); y++) {
+						System.out.print(y+" ");
+						
+					}
+				}
+				if(i>8) {
+					
+					num+=2;
+					for(int y=1;y<(i-num); y++) {
+						System.out.print(y+" ");
+						
+					}
+				}
+				System.out.println();*/
+				
+				//2
+				/*for(int i=7; i>0;i--) {
+					for(int y=1; y<=i; y++) {
+					System.out.print(y+" ");	
+					}
+			
+		System.out.println();	
+		}
+				for(int i=1;i<=7; i++) {
+						for(int y=1;y<=i; y++) {
+							System.out.print(y+" ");
+							
+						}
+						System.out.println();	
+	}*/
+		
+		//3
+
+		/*for(int rows=1; rows<=7;rows++) {
+			for(int spaceNum=2;spaceNum<=rows; spaceNum++) {
+			System.out.print(" ");
+			}
+			for(int y=rows; y<=7; y++) {
+			System.out.print(y+" ");
+			}
+			System.out.println();	
+
+		}
+		for(int rows=6; rows>=1;rows--) {
+			for(int spaceNum=2;spaceNum<=rows; spaceNum++) {
+			System.out.print(" ");
+			}
+			for(int y=rows; y<=7; y++) {
+			System.out.print(y+" ");
+			}
+			System.out.println();	
+
+		}*/
+		//4
+		/*
+		for(int rows=1; rows<=7; rows++) {
+			for(int i=1; i<=rows; i++){
+				
+				if(i%2==0) {
+					System.out.print("0");
+				}
+				else {
+					System.out.print("1");
+			
+		}
+
+	}
+			System.out.println();
+}*/
+		//5
+		/*for(int rows=1; rows<=7; rows++) {
+			for(int j=7; j>rows;j--) {
+				System.out.print(1+" ");
+			}
+			for(int k=1; k<=rows; k++) {
+				System.out.print(rows+" ");
+			}
+			System.out.println();
+		}*/
+		//6 
+			int num;
+			for(int rows=1; rows<=5;rows++) {
+				num=rows;
+				for(int i=1; i<=rows;i++) {
+					System.out.print(num+" ");
+					num+=5-i; 
+				}
+				System.out.println();
+			}
+		
+		
+	}
+}
