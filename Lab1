@@ -1,0 +1,87 @@
+package assignments;
+
+import java.util.Scanner;
+
+public class Methods {
+
+	public static void main(String[] args) {
+		
+		
+		
+		//stringMultiplicator("Hi", 6);
+		//number6checker(1,5);
+		//specialEleven(34);
+		//deerPlay(70,false);
+		//caughtSpeeding(378,true);
+		cigarParty(50, false);
+		
+
+	}
+	
+		//1
+		public static void stringMultiplicator(String str,int times ) {
+			for(int i=1; i<=times; i++)
+			System.out.print(str);
+		}
+		//2
+		public static void number6checker(int num1,int num2 ) {
+			if(num1==6 || num2==6)
+			System.out.print("true");
+			else if(num1+num2==6 || num1-num2==6)
+				System.out.print("true");
+			else System.out.print("false");
+		}
+		//3
+		public static void specialEleven(int num1) {
+			if(num1%11==0 || num1%11==1)
+			System.out.print("true");
+			else System.out.print("false");
+		}
+		//4
+		public static void deerPlay(int temp,Boolean isSummer ) {
+			if(isSummer==true) {
+				if(temp>=60 || temp<=100)
+					System.out.print("true");
+				}
+			else if(isSummer==false)
+			{
+				if(temp>=60 || temp<=90)
+					System.out.print("true");
+				}
+			else System.out.print("false");
+}
+		//5
+		public static void caughtSpeeding(double speed,Boolean isBirthday) {
+			if (isBirthday==false) {
+				if (speed<=60)
+					System.out.println(0);
+				if (speed>=61 && speed<=80)
+					System.out.println(1);
+				if (speed>=81)
+					System.out.println(2);
+		}
+			if (isBirthday==true) {
+				if (speed<=300)
+					System.out.println(0);
+				if (speed>=301 && speed<=400)
+					System.out.println(1);
+				if (speed>=401)
+					System.out.println(2);
+		
+			}
+		}
+			//6
+			public static void cigarParty(int cigars,Boolean isWeekend) {
+				if (isWeekend==false) {
+					if(cigars>=40 && cigars<=60)
+						System.out.println("true");
+					else System.out.println("false");
+				}
+				if (isWeekend==true) {
+					if(cigars>=40)
+						System.out.println("true");
+					else System.out.println("false");
+				}
+		}
+
+}
