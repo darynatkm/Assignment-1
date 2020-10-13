@@ -25,10 +25,8 @@ public class Methods {
 		}
 		//2
 		public static void number6checker(int num1,int num2 ) {
-			if(num1==6 || num2==6)
+			if(num1==6 || num2==6 || num1+num2==6 || num1-num2==6 || num2-num1==6)
 			System.out.print("true");
-			else if(num1+num2==6 || num1-num2==6)
-				System.out.print("true");
 			else System.out.print("false");
 		}
 		//3
