@@ -59,11 +59,11 @@ public class Methods {
 					System.out.println(2);
 		}
 			if (isBirthday==true) {
-				if (speed<=300)
+				if (speed<=65)
 					System.out.println(0);
-				if (speed>=301 && speed<=400)
+				if (speed>=66 && speed<=85)
 					System.out.println(1);
-				if (speed>=401)
+				if (speed>=86)
 					System.out.println(2);
 		
 			}
