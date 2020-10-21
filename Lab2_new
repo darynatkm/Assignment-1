@@ -1,0 +1,82 @@
+package assignments;
+
+import java.util.Scanner;
+
+public class Lab2 {
+
+	public static void main(String[] args) {
+		Scanner s=new Scanner(System.in);
+		//q1
+		/*
+		int largest=0, smallest=0; 
+		System.out.print("Enter your first number ");
+		int num=s.nextInt();
+		smallest=num;
+		int num2=0, num1=0; 	
+	do {
+		System.out.print("Enter your next number "); 
+		num1=s.nextInt(); 
+		if(num1<smallest)
+			smallest=num1;
+		if(num1>largest)
+			largest=num1;
+		System.out.print("Do you want to enter another number: O-No, 1-Yes ");
+		num2=s.nextInt();
+		}
+		while(num2==1);
+		System.out.println();
+		System.out.println("The smallest value: "+smallest);
+		System.out.println("The largest value: "+largest);
+*/ 
+		//q2
+		/*System.out.println("How many cookies did you eat?");
+		int cookies=s.nextInt();
+		System.out.println("You consumed "+cookies*75+" calories");*/
+		
+		//q3
+		/*System.out.println("Please enter a positive non-zero number: ");
+		int num=s.nextInt(); 
+		do {
+		if(num>0)
+			System.out.println("Your number is accepted"); 
+		else System.out.println("Your number is not accepted. Please enter a positive non-zero number: ");
+		num=s.nextInt(); 
+		}while(num<=0);
+		int sum=0; 
+		for(int i=1; i<=num; i++) {
+			sum+=i; 
+		}
+		System.out.println("The sum of all integers from 1 up to "+num+" is: "+sum);*/
+		
+		//q4
+		/*System.out.println("Please enter the number of females in the class");
+		int females=s.nextInt(); 
+		System.out.println("Please enter the number of males in the class");
+		int males=s.nextInt(); 
+		int sum=females+males; 
+		float percentageOfFemales=(float)females/sum*100; 
+		float percentageOfMales=(float)males/sum*100; 
+		System.out.println("Pourcentage of females in the class: "+ percentageOfFemales+"%"); 
+		System.out.println("Pourcentage of males in the class: "+ percentageOfMales+"%"); */
+		
+		//q5 
+		/*System.out.println("Please enter your charge");
+		double charge=s.nextDouble(); 
+		double tax=charge*0.0675; 
+		double tip=(tax+charge)*0.2;
+		double totalBill=tip+tax+charge; 
+		System.out.println("Your meal charge is $"+charge+", tax will be $"+tax+", tips will be $"+tip+". Your total bill amount is $"+totalBill); 
+		*/
+		
+		//q6
+		System.out.println("Please enter your purchase amount"); 
+		double purchase=s.nextDouble(); 
+		double countyTax=purchase*0.04; 
+		double stateTax=purchase*0.02;
+		double total=purchase+countyTax+stateTax;
+		System.out.println("Your purchase amount is $"+purchase+", county tax will be $"+countyTax+", state tax will be $"+stateTax+". Your total amount is $"+total); 
+		
+		
+		
+}
+}
